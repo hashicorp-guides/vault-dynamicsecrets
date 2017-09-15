@@ -94,9 +94,11 @@ Make this setup production ready! Configure the policy for your authorized appli
 
 
 ## Additional Reading
-[Database Backend](https://www.vaultproject.io/docs/secrets/databases/index.html)
-[Postgres Backend](https://www.vaultproject.io/docs/secrets/databases/postgresql.html)
-[Database Backend API](https://www.vaultproject.io/api/secret/databases/index.html)
-[Postgres Backend API](https://www.vaultproject.io/api/secret/databases/postgresql.html)
 
-#guides/vault
+[Database Backend](https://www.vaultproject.io/docs/secrets/databases/index.html)
+
+[Postgres Backend](https://www.vaultproject.io/docs/secrets/databases/postgresql.html)
+
+[Database Backend API](https://www.vaultproject.io/api/secret/databases/index.html)
+
+[Postgres Backend API](https://www.vaultproject.io/api/secret/databases/postgresql.html)
