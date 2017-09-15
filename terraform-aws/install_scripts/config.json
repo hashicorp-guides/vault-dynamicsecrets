@@ -1,0 +1,20 @@
+{
+	"vault": {
+		"version":              "0.8.2",
+		"command":              "server -config=/etc/vault",
+		"working_dir":          "/var/lib/vault",
+		"server": {
+			"storage": {
+				"file": {
+					"path":        "/etc/vault/vault.db"
+				}
+			},
+			"listener": {
+				"tcp": {
+					"address":      "0.0.0.0:8200",
+					"tls_disable": 1
+				}
+			}
+		}
+	}
+}

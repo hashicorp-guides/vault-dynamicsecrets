@@ -1,0 +1,10 @@
+region="us-east-1"
+azs=["a", "b"]
+vpc_cidr="172.30.0.0/16"
+instance_type="t2.micro"
+ssh_key_public="/Users/andrew/.ssh/insecure.pub"
+ssh_key_private="/Users/andrew/.ssh/insecure"
+db_name="mydbx"
+db_user="root"
+db_pass="rootroot"
+db_instance_type="db.t2.micro"

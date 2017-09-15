@@ -1,0 +1,15 @@
+[Unit]
+Description={{NAME}}
+Wants=network.target
+After=network.target
+
+[Service]
+Environment="GOMAXPROCS=2" "PATH=/usr/local/bin:/usr/bin:/bin"
+ExecStart=/usr/bin/{{NAME}} {{CMD}}
+ExecReload=/bin/kill -HUP $MAINPID
+KillSignal=TERM
+User=root
+WorkingDirectory={{WORKINGDIR}}
+
+[Install]
+WantedBy=multi-user.target
